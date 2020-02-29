@@ -105,6 +105,14 @@ html, body {
     font-weight: 100;
     color: #5a5959;
 }
+.portfolio-section img{
+    display: block;
+  max-width:348px;
+  max-height:225px;
+  width: auto;
+  height: auto;
+}
+
 /*About Me*/
 .aboutme-section{
     padding: 1vh 30%;
