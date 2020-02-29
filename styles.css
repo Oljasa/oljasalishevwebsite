@@ -107,8 +107,8 @@ html, body {
 }
 .portfolio-section img{
     display: block;
-  max-width:348px;
-  max-height:225px;
+  max-width:100%;
+  max-height:100%;
   width: auto;
   height: auto;
 }
