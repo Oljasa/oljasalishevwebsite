@@ -67,6 +67,7 @@ html, body {
 .topnavbar a:hover{
     color: #ccc;
     text-decoration: none;
+    /*txtdecornone*/
 }
 .intro h1{
     color: #5a5959;
@@ -83,21 +84,22 @@ html, body {
     overflow: auto;
 }
 /*Portfolio*/
+
+.pcontainer {
+    display: flex;
+    margin-right: -60px;
+    margin-left: -60px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 .portfolio-section{
     font-weight: 400;
     padding: 1vh 30%;
     text-align: center;
 }
-.portfolio-container {
-    display: flex;
-    margin-right: -60px;
-    margin-left: -60px;
-    /*
-    flex-direction: row;*/
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
+
 
 .portfolio-section h1{
     font-weight: 100;
