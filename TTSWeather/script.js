@@ -148,4 +148,3 @@ function drawWeather(d) {
     var iconurl = "http://openweathermap.org/img/wn/" + iconcode + "@2x.png";
     document.getElementById("wicon").src = iconurl;
 }
-
