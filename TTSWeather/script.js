@@ -3,8 +3,8 @@
 var SpeechRecognition = window.webkitSpeechRecognition;
   
 //instruction message for visually impaired users on how to use program
-var firstMsg = new SpeechSynthesisUtterance("Hello, this is a web application that informs visually impaired users of weather information, press and hold the button in the middle of the screen and state a city or state or country then let go of the button");
-window.speechSynthesis.speak(firstMsg);
+//var firstMsg = new SpeechSynthesisUtterance("Press and hold the button in the middle of the screen and state a city or state or country then let go of the button");
+//window.speechSynthesis.speak(firstMsg);
 
 
 // instantiated speech recognition interface
